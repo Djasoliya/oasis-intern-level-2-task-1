@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcu.css">
+    <script src="calcu.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="cal">
+            <table>
+                <tr>
+                    <td colspan="3"><input type="text" id="inp"></td>
+                    <td><button onclick="c()">
+                            <center>C</center>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td><button id="cal1" onclick="cal('7')">
+                            <center>7</center>
+                        </button></td>
+                    <td><button id="cal2" onclick="cal('8')">
+                            <center>8</center>
+                        </button></td>
+                    <td><button id="cal3" onclick="cal('9')">
+                            <center>9</center>
+                        </button></td>
+                    <td><button id="cal4" onclick="cal('/')">
+                            <center>/</center>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td><button id="cal5" onclick="cal('4')">
+                            <center>4</center>
+                        </button></td>
+                    <td><button id="cal6" onclick="cal('5')">
+                            <center>5</center>
+                        </button></td>
+                    <td><button id="cal7" onclick="cal('6')">
+                            <center>6</center>
+                        </button></td>
+                    <td><button id="cal8" onclick="cal('*')">
+                            <center>*</center>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td><button id="cal9" onclick="cal('1')">
+                            <center>1</center>
+                        </button></td>
+                    <td><button id="cal10" onclick="cal('2')">
+                            <center>2</center>
+                        </button></td>
+                    <td><button id="cal11" onclick="cal('3')">
+                            <center>3</center>
+                        </button></td>
+                    <td><button id="cal12" onclick="cal('-')">
+                            <center>-</center>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td><button id="cal13" onclick="cal('0')">
+                            <center>0</center>
+                        </button></td>
+                    <td><button id="cal14" onclick="cal('.')">
+                            <center>.</center>
+                        </button></td>
+                    <td><button id="cal15" onclick="calculate()">
+                            <center>=</center>
+                        </button></td>
+                    <td><button id="cal16" onclick="cal('+')">
+                            <center>+</center>
+                        </button></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><button id="back" onclick=" db()">Backspace</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
